@@ -45,21 +45,10 @@
         <script type="text/javascript" src="{{ asset('js/moment.min.js') }}"></script>
         <script type="text/javascript" src="{{ asset('js/bootstrap-daterangepicker.js') }}"></script>  
         
-        
-
-        
-    
         <script src="{{ asset('js/jquery-ui.min.js')}}"></script>
         <script src="{{ asset('js/moment-with-locales.min.js')}}"></script>
         <script src="{{ asset('js/bootstrap-datetimepicker.min.js')}}"></script>
 
-
-     
-
-
-    
-
-        
     </head>
     <body class="main-body">    
    
