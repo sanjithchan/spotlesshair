@@ -1,0 +1,66 @@
+span.multiselect-native-select{position:relative}span.multiselect-native-select select{border:0!important;clip:rect(0 0 0 0)!important;height:1px!important;margin:-1px -1px -1px -3px!important;overflow:hidden!important;padding:0!important;position:absolute!important;width:1px!important;left:50%;top:30px}.multiselect-container{position:absolute;list-style-type:none;margin:0;padding:0}.multiselect-container .input-group{margin:5px}.multiselect-container>li{padding:0}.multiselect-container>li>a.multiselect-all label{font-weight:700}.multiselect-container>li.multiselect-group label{margin:0;padding:3px 20px 3px 20px;height:100%;font-weight:700}.multiselect-container>li.multiselect-group-clickable label{cursor:pointer}.multiselect-container>li>a{padding:0}.multiselect-container>li>a>label{margin:0;height:100%;cursor:pointer;font-weight:400;padding:3px 20px 3px 40px}.multiselect-container>li>a>label.radio,.multiselect-container>li>a>label.checkbox{margin:0}.multiselect-container>li>a>label>input[type=checkbox]{margin-bottom:5px}.btn-group>.btn-group:nth-child(2)>.multiselect.btn{border-top-left-radius:4px;border-bottom-left-radius:4px}.form-inline .multiselect-container label.checkbox,.form-inline .multiselect-container label.radio{padding:3px 20px 3px 40px}.form-inline .multiselect-container li a label.checkbox input[type=checkbox],.form-inline .multiselect-container li a label.radio input[type=radio]{margin-left:-20px;margin-right:0}
+
+
+.multiselect.dropdown-toggle.btn.btn-default {
+  text-align: left;
+  width: 100%;
+}
+
+.multiselect-native-select {
+  display: block;
+  width: 100%;
+}
+.multiselect-native-select .btn-group {
+  position: relative;
+  width: 100%;
+}
+
+.multiselect.dropdown-toggle.btn.btn-default {
+  text-align: right;
+  width: 100%;
+}
+.multiselect-selected-text {
+  float: left;
+}
+.multiselect-container.dropdown-menu.show {
+  max-height: 200px;
+  margin-bottom: 2px;
+  margin-top: 2px;
+  overflow: scroll;
+  width: 100%;
+}
+.multiselect-container .input-group {
+  margin: 0;
+  padding: 5px 10px;
+}
+
+.multiselect-container a label {
+  border-bottom: 1px solid #eee;
+  color: #666;
+  display: block;
+  font-size: 12px;
+  line-height: 20px;
+  padding: 2px 0 2px 10px !important;
+  width: 100%;
+}
+.multiselect-container .checkbox > input {
+  border-color: #666;
+  float: left;
+  height: 15px;
+  margin-bottom: 0;
+  margin-right: 6px;
+  margin-top: 2px;
+}
+
+.input-group-btn, .input-group-addon {
+  display: none;
+}
+
+.special-condition-form .special-divs:nth-child(1){
+  width: 70%;
+  float: left;
+}
+.special-condition-form .special-divs:nth-child(2){
+  width: 30%;
+  float: left;
+}
